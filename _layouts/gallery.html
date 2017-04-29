@@ -4,8 +4,8 @@ layout: default
 
 <div class="gallery">
   {% for p in site.categories[page.type] %}
-    <a href="{{ site.url }}{{ p.url }}" class="project">
-      <div style="background-image: url('{{ p.image }}');"></div>
+    <a href="{{ site.subdirectory }}{{ p.url }}" class="project">
+      <div style="background-image: url('{{ site.subdirectory }}{{ p.image }}');"></div>
       <h2>{{ p.title }}</h2>
     </a>
   {% endfor %}
