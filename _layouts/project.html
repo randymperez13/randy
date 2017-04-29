@@ -5,7 +5,9 @@ layout: default
 <div class="project">
   <h1>{{ page.title }}</h1>
   <hr>
+  {% unless page.image == blank %}
   <img src="{{ site.subdirectory }}{{ page.image }}">
+  {% endunless %}
 
   {{ content }}
 </div>
