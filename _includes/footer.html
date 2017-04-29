@@ -1,0 +1,13 @@
+<footer>
+  <nav>
+    {% for link in site.links %}
+      <a href="{{ link[1] }}">{{ link[0] }}</a>
+    {% endfor %}
+  </nav>
+  <div>design and code by <a href="https://nathanwentworth.co/">nathan wentworth</a></div>
+</footer>
+
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'') + 'js';
+</script>

@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="gallery">
+  {% for p in site.categories[page.type] %}
+    <a href="{{ site.url }}{{ p.url }}" class="project">
+      <div style="background-image: url('{{ p.image }}');"></div>
+      <h2>{{ p.title }}</h2>
+    </a>
+  {% endfor %}
+</div>

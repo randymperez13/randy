@@ -1,0 +1,12 @@
+<header>
+  <h1>
+    <a href="{{ site.url }}">{{ site.title }}</a>
+  </h1>
+  <nav>
+    {% for page in site.pages %}
+      {% unless page.url contains "/assets/" %}
+        <div><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></div>
+      {% endunless %}
+    {% endfor %}
+  </nav>
+</header>
