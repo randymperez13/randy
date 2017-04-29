@@ -188,9 +188,18 @@ footer div a:hover, footer div a:active { color: mix($dark-color, $background-co
 */
 
 @media (max-width: 600px) {
+  header {
+    font-size: 0.8em;
+  }
+
   .gallery .project {
     width: calc(100% - 32px);
   }
+
+  main {
+    padding-top: 120px;
+  }
+
 }
 
 

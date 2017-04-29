@@ -1,6 +1,7 @@
 ---
 layout: project
 title: About
+order: 3
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

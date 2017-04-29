@@ -3,7 +3,8 @@
     <a href="{{ site.subdirectory }}/">{{ site.title }}</a>
   </h1>
   <nav>
-    {% for page in site.pages %}
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    {% for page in sorted_pages %}
       {% unless page.url contains "/assets/" %}
         <div><a href="{{ site.subdirectory }}{{ page.url }}">{{ page.title }}</a></div>
       {% endunless %}
