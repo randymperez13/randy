@@ -10,4 +10,13 @@ layout: default
   {% endunless %}
 
   {{ content }}
+
+  {% unless page.videos == nil %}
+    {% for video in page.videos %}
+      <div class="video-container">
+       {{ video }}
+      </div>
+    {% endfor %}
+  {% endunless %}
+
 </div>
