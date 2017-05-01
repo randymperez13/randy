@@ -5,14 +5,6 @@ url: "https://randymperez13.github.io" # The base hostname & protocol for your s
 subdirectory: ""
 permalink: /:title/
 
-# Social
-socialimg: /assets/img/social.jpg # be sure to change this image
-facebook: fbusername
-twitter: twusername
-github: ghusername
-googleplus: gusername
-instagram: igusername
-
 # Contact
 # the mailto: in the email is important!
 # use full links
