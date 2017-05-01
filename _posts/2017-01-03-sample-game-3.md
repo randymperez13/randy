@@ -2,6 +2,7 @@
 layout: project
 category: game
 image: /assets/img/03-11.jpg
+videos: ['<iframe width="560" height="315" src="https://www.youtube.com/embed/rVkO-x8I0t4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>', '<iframe width="560" height="315" src="https://www.youtube.com/embed/rVkO-x8I0t4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>']
 title: "yet another game"
 ---
 
